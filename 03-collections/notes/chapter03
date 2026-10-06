@@ -1,0 +1,42 @@
+Listas (list)
+    ordenadas
+    têm índice
+    usam colchetes [ ]
+    são mutáveis
+    podem ter elementos de tipos diferentes
+    construtor: list()
+
+Tuplas (tuple)
+    ordenadas
+    imutáveis
+    itens separados por vírgula
+    geralmente usam parênteses ( )
+    construtor: tuple()
+
+Conjuntos (set)
+    desordenados
+    não permitem valores repetidos
+    usam { } ou set()
+    construtor: set()
+
+Dicionários (dict)
+    trabalham com chave → valor
+    cada chave deve ser única
+    a chave precisa ser hashable
+    chaves e valores são separados por :
+    usam { }
+    construtor: dict()
+    podem ser pensados como uma estrutura de mapeamento, semelhante à ideia de uma tabela
+
+Todos possuem uma função construtora:
+    list()
+    tuple()
+    set()
+    dict()
+
+Ordenação
+sort() é um método de listas.
+sort() modifica a própria lista.
+Para a ordenação natural, os elementos precisam ser comparáveis entre si.
+sorted() pode receber diferentes coleções e retorna uma nova lista ordenada.
+reverse=True permite ordenar em ordem reversa.
