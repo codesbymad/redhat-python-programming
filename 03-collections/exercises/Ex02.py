@@ -24,7 +24,9 @@ while num != "end":
     num = input("Insira um número (ou a palavra 'end' para sair)")
     if num == "end":
         break
-    list = list + [int(num)]
+    list.append(int(num))
 print(list)
-soma = sum(list)
+soma = 0
+for adc in list:
+    soma = soma + adc
 print(soma)

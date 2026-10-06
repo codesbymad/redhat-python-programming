@@ -21,11 +21,11 @@ while num != "end":
     num = input("Digite um número ou end para terminar ")
     if num == "end":
         break
-    if num in numeros:
+    if int(num) in numeros:
         print("Esse número ja foi armazenado")
         entrN = entrN + 1
         continue
     else:
-        numeros.add(num)
+        numeros.add(int(num))
 print(numeros)
 print(f"A quantidade de tentativas de inserir números repetidos foi {entrN}")

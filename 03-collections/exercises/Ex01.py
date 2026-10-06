@@ -10,6 +10,6 @@ first = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"]
 second = ["day", "day", "sday", "nesday", "rsday", "day", "urday"]
 week = list()
 for day in range(len(first)-1):
-    week = week + [first[day] + second[day]]
+    week.append(first[day] + second[day])
     
 print(week)
